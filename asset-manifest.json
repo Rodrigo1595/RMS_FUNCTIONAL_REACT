@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RMS_FUNCTIONAL_REACT/static/css/main.b94cd642.css",
+    "main.css": "/RMS_FUNCTIONAL_REACT/static/css/main.c23b68b0.css",
     "main.js": "/RMS_FUNCTIONAL_REACT/static/js/main.135061f8.js",
     "static/media/presentation.png": "/RMS_FUNCTIONAL_REACT/static/media/presentation.2d949a93e3bcab6b6622.png",
     "static/media/rms_logo_v3.png": "/RMS_FUNCTIONAL_REACT/static/media/rms_logo_v3.c5bbbaef04ec6cf217fa.png",
@@ -9,11 +9,11 @@
     "static/media/feature_2.png": "/RMS_FUNCTIONAL_REACT/static/media/feature_2.573cfde2e325ff29fab6.png",
     "static/media/feature_3.png": "/RMS_FUNCTIONAL_REACT/static/media/feature_3.0fadb17c93d531691fd5.png",
     "index.html": "/RMS_FUNCTIONAL_REACT/index.html",
-    "main.b94cd642.css.map": "/RMS_FUNCTIONAL_REACT/static/css/main.b94cd642.css.map",
+    "main.c23b68b0.css.map": "/RMS_FUNCTIONAL_REACT/static/css/main.c23b68b0.css.map",
     "main.135061f8.js.map": "/RMS_FUNCTIONAL_REACT/static/js/main.135061f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b94cd642.css",
+    "static/css/main.c23b68b0.css",
     "static/js/main.135061f8.js"
   ]
 }
