@@ -214,7 +214,7 @@ nav .menu-btn,
 }
 
 .about-text {
-    width: 45%;
+    width: 50%;
     color: #fff;
     list-style: circle;
 }
@@ -225,6 +225,7 @@ nav .menu-btn,
     font-weight: 500;
     margin: 0px;
     padding: 0px;
+    width: fit-content;
 }
 
 .about-text p {

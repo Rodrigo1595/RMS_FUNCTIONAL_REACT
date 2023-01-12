@@ -7,7 +7,7 @@ import FeatureImage3 from '../images/feature_3.png'
 function Feature() {
   return (
     <div id='feature' >
-      <h1 className='titleCards'>Prueba</h1>
+      <h1 className='titleCards'>¡Entrenar es más que sólo levantar fierros! <span> &#x1f440; </span> </h1>
       <div className='a-container'>
         <FeatureBox image={FeatureImage1} title="Beneficios del ejercicio"
           text="Algunos beneficios de la actividad física para la salud cerebral ocurren inmediatamente 
