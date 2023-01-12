@@ -6,7 +6,7 @@ import FeatureImage3 from '../images/feature_3.png'
 
 function Feature() {
   return (
-    <div id='feature' >
+    <div id='feature'  className='backgroundFeature'>
       <h1 className='titleCards'>¡Entrenar es más que sólo levantar fierros! <span> &#x1f440; </span> </h1>
       <div className='a-container'>
         <FeatureBox image={FeatureImage1} title="Beneficios del ejercicio"

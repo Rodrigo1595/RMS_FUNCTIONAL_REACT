@@ -23,6 +23,7 @@ app {
     display: flex;
     flex-direction: column;
     flex: wrap;
+    
 }
 
 .h1FtBox {
@@ -67,11 +68,10 @@ input {
 }
 
 #main {
-
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 nav {
@@ -203,12 +203,12 @@ nav .menu-btn,
 #about {
     width: 100%;
     height: 768px;
-    background-color: white;
+    background-color: whitesmoke;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 5% 0px 5%;
+    padding: 100px 5% 0px 5%;
     position: relative;
 }
 
@@ -277,12 +277,16 @@ nav .menu-btn,
     justify-content: center;
     display: flex;
     padding-top: 10%;
+    margin: 0px;
 }
-
+.backgroundFeature{
+    background-color: whitesmoke;
+}
 .a-container {
     height: 100vh;
     justify-content: center;
     align-content: center;
+    background-color: whitesmoke;
 }
 
 .a-box {
@@ -518,9 +522,6 @@ nav .menu-btn,
         height: auto;
     }
 
-    .a-container {
-        flex-wrap: wrap;
-    }
 
     .a-box {
         flex-grow: 1;
@@ -550,12 +551,14 @@ nav .menu-btn,
 
 }
 
-@media(max-width:1120px) {
+@media(max-width:1160px) {
     .main {
         background-image: none !important;
 
     }
-
+    .a-container{
+        flex-wrap: nowrap;
+    }
     .about-text h2 {
         width: 100%;
 
@@ -719,8 +722,10 @@ nav .menu-btn,
 
 @media(max-width:752px) {
     .titleCards {
-        padding-bottom: 50%;
         font-size: 1.2rem;
+    }
+    .a-container{
+        flex-wrap: wrap;
     }
 
 
